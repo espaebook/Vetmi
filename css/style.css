@@ -1,0 +1,116 @@
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.imagen-macro {
+  width: 400px;
+  height: 400px;
+}
+
+.box{
+  align-items: center;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  
+}
+
+.table td, .table th{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+}
+.id{
+  text-align: center;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.nombre{
+  width: 30%;
+  text-align: center;
+}
+
+.descripcion{
+  text-align: justify;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.precio{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.imagen{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.a_img{
+  width: 15px;
+}
+
+.page-link{
+  color: black;
+}
+
+.fa{
+  padding-right: 10px;
+}
+.busc{
+  padding: 56px 0;
+}
+
+.col{
+  margin-bottom: 2%;
+}
+
+
+.busc2{
+  padding: 56px 0;
+}
+
+.shop{
+  color: black;
+  text-decoration:none;
+}
+
+.shop:hover{
+  color: black;
+}
+
+.logo-menu {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.title-logo-menu {
+  color: #ffffff;
+  font: normal 2em 'Dancing Script', sans-serif;
+  text-shadow: 1px 1px 5px #000000;
+  transition: 0.3s ease all;
+}
+
+.bd-table .row>.col-sm, .bd-table .row>.col-sm-1{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #343a40!important;
+}

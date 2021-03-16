@@ -1,0 +1,78 @@
+
+
+.content-pagination {
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.content-pagination a, .content-pagination span {
+  display: block;
+  line-height: 2em;
+  height: 2em;
+  padding: 0 .5em;
+  text-decoration: none;
+  margin: 0;
+}
+.content-pagination span {
+  display: inline-block;
+  padding: 0;
+  margin-left: 3em;
+  position: relative;
+}
+.content-pagination .newer, .content-pagination .older {
+  display: inline-block;
+  vertical-align: top;
+}
+.content-pagination .newer:hover, .content-pagination .older:hover {
+  background: #f8f8f8;
+  box-shadow: 0 0 4px -2px black;
+}
+.content-pagination .pagination-pages {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  overflow-y: auto;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  vertical-align: top;
+  z-index: 10;
+}
+.content-pagination .pagination-pages:hover {
+  background: rgba(255, 255, 255, 0.95);
+  left: 0;
+  bottom: 0;
+}
+.content-pagination .pagination-pages:hover li {
+  display: inline-block;
+  width: 3em;
+  text-align: center;
+}
+.content-pagination .pagination-pages:hover li:hover {
+  background: #eee;
+  border-radius: 3px;
+}
+.content-pagination .pagination-pages:hover .current a:link {
+  color: #555;
+}
+.content-pagination .pagination-pages:hover .current a:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+.content-pagination li {
+  background: #fff;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.content-pagination .current {
+  display: block;
+}
+
+.site-footer {
+  border-top: 1px solid #eee;
+  margin: 2em 0 0;
+  font-size: .8em;
+}
+
