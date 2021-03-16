@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-sm">Nombre</div>
       <div class="col-sm">Descripcion</div>
-      <div class="col-sm-1">Precio</div>
+      <div class="col-sm-2">Precio</div>
       <div class="col-sm">Imagen</div>
     </div>
   </div>
@@ -45,7 +45,7 @@
             <div class="row align-items-center pt-1">
               <div class="col-sm pt-2"><?php echo $data[1] ?></div>
               <div class="col-sm text-justify pt-3"><?php echo $data[2] ?></div>
-              <div class="col-sm-1 pt-3">$<?php echo number_format($data[3],0)?></div>
+              <div class="col-sm-2 pt-3">$<?php echo number_format($data[3],0)?></div>
               <div class="col-sm pt-3"><img src="<?php echo $data[4] ?>" class="img-fluid" alt="Responsive image"></div>
             </div>
           </div>
