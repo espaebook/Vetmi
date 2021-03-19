@@ -21,7 +21,7 @@
     </form>
     <div class='row mt-3'>
         <div class='mx-auto'>
-            <a class="shop" href="lista2.0.php"><p class='lead'><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>Todos los Productos</p></a>
+            <a class="shop" href="lista.php"><p class='lead'><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>Todos los Productos</p></a>
             
             
         </div>

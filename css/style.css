@@ -15,8 +15,7 @@ section {
 .box{
   align-items: center;
   text-align: center;
-  width: 25px;
-  height: 25px;
+  width: 25px;  height: 25px;
   line-height: 25px;
   
 }
@@ -109,8 +108,26 @@ section {
   transition: 0.3s ease all;
 }
 
-.bd-table .row>.col-sm, .bd-table .row>.col-sm-2{
+.bd-table .row>.col-sm, .bd-table .row>.col-sm-1, .bd-table .row>.col-sm-2, .bd-table .row>.col-sm-3, .bd-table .row>.col-sm-5{
   padding-top: .75rem;
   padding-bottom: .75rem;
   background-color: #343a40!important;
 }
+
+.nom{
+  font-size: 1.2rem;
+  font-weight: 700!important;
+  text-align-last: center;
+}
+.des{
+  font-size: 17px;
+  font-weight: 500!important;
+  padding: 0 4% 0 4%;
+}
+
+.prec{
+  font-size: 1.5rem;
+  text-align-last: center;
+}
+
+
