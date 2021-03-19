@@ -168,7 +168,7 @@ $results = pg_query($conexion, "select * from productos ORDER BY id ASC LIMIT $p
             </div>
             <div class="col-sm-5">
             <?php 
-                if(empty ($data[4])){
+                if($data[4]==false){
                 echo '<img src="./img/no.png" class="img-fluid" alt="Responsive image">';
                 }else{
                 echo '<img src="'.$data[4].'" class="img-fluid" alt="Responsive image">';
