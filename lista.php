@@ -153,9 +153,10 @@ $results = pg_query($conexion, "select * from productos ORDER BY id ASC LIMIT $p
     while ($data = pg_fetch_array($results)){
 ?>
 
-        <div class="container-fluid text-center border font-weight-bold">
+    <div class="container-fluid text-center border font-weight-bold">
         <div class="row align-items-center pt-1">
-            <div class="col-sm-7 " >
+        <div class="col-sm-1 nom" ><?php echo $data[0] ?></div>
+            <div class="col-sm-6 " >
             <div class="row h-25">
                 <div class="col nom" ><?php echo $data[1] ?></div>
             </div>
@@ -168,15 +169,15 @@ $results = pg_query($conexion, "select * from productos ORDER BY id ASC LIMIT $p
             </div>
             <div class="col-sm-5">
             <?php 
-                if($data[4]==false){
-                echo '<img src="./img/no.png" class="img-fluid" alt="Responsive image">';
+                if(empty($data[4]) == true){
+                    echo '<img src="./img/no.png" class="img-fluid" alt="Responsive image">';
                 }else{
-                echo '<img src="'.$data[4].'" class="img-fluid" alt="Responsive image">';
+                    echo '<img src="'.$data[4].'" class="img-fluid" alt="Responsive image">';
                 }
             ?> 
             </div>
         </div>
-        </div>
+    </div>
 <?php
         }
 ?>
