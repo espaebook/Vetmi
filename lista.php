@@ -17,9 +17,9 @@ function pagination($query,$per_page=10,$page=1,$url='?'){
     $total = $row['nume'];
     $adjacents = "2"; 
      
-    $prevlabel = "&lsaquo; Prev";
-    $nextlabel = "Next &rsaquo;";
-	$lastlabel = "Last &rsaquo;&rsaquo;";
+    $prevlabel = "Prev";
+    $nextlabel = "Next";
+	$lastlabel = "Last";
      
     $page = ($page == 0 ? 1 : $page);  
     $start = ($page - 1) * $per_page;                               
@@ -104,7 +104,6 @@ function pagination($query,$per_page=10,$page=1,$url='?'){
 <html>
 <head>
 <meta charset="utf-8">
-<title>Pagination - OTallu.com</title>
 <style type="text/css">
 /* For this page only */
 
@@ -137,7 +136,7 @@ ul.pagination a.current {
 $page = (int)(!isset($_GET["page"]) ? 1 : $_GET["page"]);
 if ($page <= 0) $page = 1;
 
-$per_page = 10; // Set how many records do you want to display per page.
+$per_page = 5; // Set how many records do you want to display per page.
 
 $startpoint = ($page * $per_page) - $per_page;
 // $startpoint = 0;
